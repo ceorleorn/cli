@@ -1,2 +1,8 @@
-import { assertEquals } from "https://deno.land/std@0.68.0/testing/asserts.ts";
+import { cli } from "./mod.ts"
 
+Deno.test({
+  name: "Import of test",
+  fn(): void {
+    console.log(cli)
+  },
+});
