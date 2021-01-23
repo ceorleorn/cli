@@ -3,4 +3,4 @@
 
 import { clis } from "./src/index.ts";
 
-export const cli = clis
+export const cli = clis;

@@ -1,8 +1,8 @@
-import { cli } from "./mod.ts"
+import { cli } from "./mod.ts";
 
 Deno.test({
   name: "Import of test",
   fn(): void {
-    console.log(cli)
+    console.log(cli);
   },
 });
